@@ -33,6 +33,12 @@ public class PiorityLine extends Line{
 					if(a.getArivalTime()<b.getArivalTime()) {
 						return -1;
 					}
+					
+					if(a.getArivalTime()==b.getArivalTime()) {
+						return 0;
+					}
+					
+					return 1;
 				}
 				
 				if(a.isLoyal()) {
