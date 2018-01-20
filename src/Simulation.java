@@ -15,6 +15,7 @@ public class Simulation {
 		// TODO Auto-generated method stub
 		
 		Store normal = new Store();
+		normal.run();
 		System.out.println("Sucess");
 	}
 

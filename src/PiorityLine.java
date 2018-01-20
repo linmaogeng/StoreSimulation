@@ -16,7 +16,7 @@ public class PiorityLine extends Line{
 	public PiorityLine() {
 		
 		super();
-		line = new PriorityQueue<Cart>(0,new cartComparator());
+		line = new PriorityQueue<Cart>(1,new cartComparator());
 	}
 	
 	public class cartComparator implements Comparator<Cart>{
